@@ -77,9 +77,9 @@ public class AppiumSwiggyTest {
 		elloc.click();
 		MobileElement elmyloc = (MobileElement) driver.findElementByXPath("//android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2]");
 		elmyloc.click();
-		//Thread.sleep(3000);
+		Thread.sleep(3000);
 		Assert.assertEquals(elloc.getText(),"No 55 Kumaran St Vivekanada Nagar Ramapuram 600078, Pink Fitness Ramapuram, Rajaram St, Vivekanandha Nagar, Nehru Nagar, Ramapuram, Chennai, Tamil Nadu 600088, India");
-		//Thread.sleep(5000);
+		Thread.sleep(10000);
 		System.out.println("Appium Swiggy Link Test Success");
 	}
 
